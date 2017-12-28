@@ -16,16 +16,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="line" placeholder="Enter Amount Here" textAlignment="center" minimumFontSize="30" id="Avx-jY-Lkv">
-                                <rect key="frame" x="24" y="82" width="326" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="textColor" red="0.31424254698762139" green="0.50488450644974092" blue="0.4272171158440401" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
-                                <connections>
-                                    <action selector="calculateTip:" destination="BYZ-38-t0r" eventType="editingChanged" id="IAi-rZ-eLd"/>
-                                </connections>
-                            </textField>
                             <view contentMode="scaleToFill" misplaced="YES" id="lpT-ix-KHX">
                                 <rect key="frame" x="0.0" y="336" width="375" height="144"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -48,7 +38,7 @@
                                 <color key="backgroundColor" red="0.60615211729999996" green="0.97100335360000001" blue="0.81402117009999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <view contentMode="scaleToFill" misplaced="YES" id="GwG-e7-ys1">
-                                <rect key="frame" x="0.0" y="211" width="375" height="128"/>
+                                <rect key="frame" x="0.0" y="221" width="375" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="$0.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Doh-6I-fLD">
@@ -68,8 +58,18 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.36676047256146838" green="0.58926355437720201" blue="0.49861596653708345" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
+                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="line" placeholder="Enter Amount Here" textAlignment="center" minimumFontSize="30" id="Avx-jY-Lkv">
+                                <rect key="frame" x="24" y="88" width="326" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.31424254698762139" green="0.50488450644974092" blue="0.4272171158440401" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                <connections>
+                                    <action selector="calculateTip:" destination="BYZ-38-t0r" eventType="editingChanged" id="IAi-rZ-eLd"/>
+                                </connections>
+                            </textField>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="Sxq-Z7-sXU">
-                                <rect key="frame" x="37" y="167" width="300" height="29"/>
+                                <rect key="frame" x="37" y="173" width="300" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <segments>
                                     <segment title="18%"/>
@@ -122,19 +122,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qEN-rr-fc3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-140" y="131"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="MU2-GR-L9P">
-            <objects>
-                <viewController id="MaD-3y-qMo" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="gA1-cR-XqL">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="kt4-aN-05l" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
         </scene>
     </scenes>
 </document>
